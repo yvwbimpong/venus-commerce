@@ -1,0 +1,29 @@
+{
+	"name": "velo-assessment",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index",
+		"dev": "nodemon index",
+		"deploy::functions": "cd functions && firebase deploy && cd .."
+	},
+	"keywords": [],
+	"author": "bimpong",
+	"license": "ISC",
+	"dependencies": {
+		"@google-cloud/storage": "^6.4.0",
+		"axios": "^0.27.2",
+		"body-parser": "^1.20.0",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.1",
+		"express": "^4.18.1",
+		"express-validator": "^6.14.2",
+		"firebase": "^9.9.2",
+		"firebase-admin": "^11.0.1",
+		"firebase-functions": "^3.22.0",
+		"firebase-tools": "^11.6.0",
+		"nodemailer": "^6.7.8",
+		"nodemon": "^2.0.19"
+	}
+}
